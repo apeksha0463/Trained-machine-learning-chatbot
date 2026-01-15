@@ -13,7 +13,7 @@ function Chatbot() {
     setMessages((prev) => [...prev, userMsg]);
 
     try {
-      const res = await fetch("http://localhost:3002/chat", {
+      const res = await fetch("http://localhost:5001/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input })

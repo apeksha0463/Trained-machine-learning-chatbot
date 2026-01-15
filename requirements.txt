@@ -2,3 +2,9 @@ pandas
 scikit-learn
 flask
 flask-cors
+tensorflow
+numpy
+pymongo
+python-dotenv
+requests
+vaderSentiment

@@ -22,3 +22,27 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python
+.venv/
+venv/
+venv_tf/
+venv_tf310/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ML Models/Data (Keep templates, ignore binaries)
+ml/model.pkl
+ml/vectorizer.pkl
+ml/tokenizer.pkl
+sentiment_model.keras
+sentiment_label_encoder.pkl
+ml/data/chatbot_intents.csv
+ml/data/training_data.csv
+ml/data/user_contributions.csv
+*.log
+accuracy_log.txt
+sentiment_accuracy.log
+debug_*.py
